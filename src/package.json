@@ -1,0 +1,25 @@
+{
+  "name": "Mars",
+  "version": "0.0.1",
+  "description": "temperature details for mars",
+  "main": "mars.js",
+  "dependencies": {
+    "cli-chart": "^0.3.1",
+    "commander": "^2.9.0",
+    "content-disposition": "^0.5.1",
+    "express": "^4.13.4",
+    "plotly": "^1.0.6",
+    "quiche": "^0.0.10",
+    "request": "^2.72.0",
+    "sync-request": "^3.0.1"
+  },
+  "devDependencies": {},
+  "bin": {
+    "Mars": "mars.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
