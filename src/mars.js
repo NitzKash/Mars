@@ -27,7 +27,7 @@ program
 				end = end || 'end_empty';
 				start = start || 'start_empty';
     			//console.log('results will be displayed form %s to %s', start, end);
-    			var internal_command='node temp_time_range_synchronous.js '+start+' '+end;
+    			var internal_command = 'node temp_time_range_synchronous.js '+start+' '+end;
     			child = exec(internal_command, function (error, stdout, stderr) 
 				{
 				 	if (error !== null) 
@@ -44,7 +44,7 @@ program
 				end = end || 'end_empty';
 				start = start || 'start_empty';
     			//console.log('results will be displayed form %s to %s', start, end);
-    			var internal_command='node temp_time_range_with_graph.js '+start+' '+end;
+    			var internal_command = 'node temp_time_range_with_graph.js '+start+' '+end;
     			child = exec(internal_command, function (error, stdout, stderr) 
 				{
 				 	if (error !== null) 
