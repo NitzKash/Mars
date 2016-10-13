@@ -56,4 +56,4 @@ This will produce a `URL` on the shell, by following which the graph can be view
 
 This graph is created using the [google chart API](https://developers.google.com/chart/)
 
-Note: An error may occur if the number of stats to be plotted exceeds a given maximum 
+Note: An error may occur if the number of stats to be plotted exceeds a given maximum (depending on google chart API)
